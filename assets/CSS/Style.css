@@ -1,0 +1,226 @@
+body {
+    font-family: 'Courier New', Helvetica, monospace, sans-serif;
+    line-height: 1.6;
+    color: #230838;
+    margin: 0;
+    background-color: #858AE3;
+}
+
+header, main, footer {
+    margin-bottom: 20px;
+}
+
+header {
+    width: 100%;
+    background-color: #5829A7;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    color: #8EB5F0;
+    
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 30px;
+    background-color: #5829A7;
+}   
+
+nav a {
+    color: #3D0E61;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #8EB5F0;
+}
+
+nav a:hover{
+    background: #858AE3;
+}
+
+hr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #5829A7;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-content{
+    float: left;
+    width: 73%;
+    margin-right: 5px;
+}
+
+main p, main h3{
+    margin-left: 10px;
+}
+
+.About-me {
+    margin-left: 20px;
+    background-color: #A8A4CE;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-width: 5px;
+    border-color: #5829A7;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.portofolio {
+    margin-left: 20px;
+    background-color: #A8A4CE;
+    padding-left: 10px;
+    border: solid;
+    border-width: 5px;
+    border-color: #5829A7;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.illustration{
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-width: 5px;
+    border-color: #5829A7;
+    border-radius: 10px;
+}
+
+#porto-illust{
+    width: 40%;
+    margin: 10px;
+}
+
+.contact-me {
+    margin-left: 20px;
+    background-color: #A8A4CE;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-width: 5px;
+    border-color: #5829A7;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #613DC1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4E148C;
+  }
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.partner{
+    margin-left: 20px;
+    background-color: #A8A4CE;
+    padding-left: 10px;
+    border: solid;
+    border-width: 5px;
+    border-color: #5829A7;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#Partnerimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:120px;
+    height:120px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5829A7;
+}
+
+article h3 {
+    text-align: center;
+}
+
+article {
+    background-color: #C8B6E2;
+    width: 300px;
+    border: 3px solid #5829A7;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    box-shadow: 6px 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+aside h2, aside p {
+    margin-left: 10px;
+    text-align: left;
+}
+
+
+aside{
+    position: absolute;
+    right: 20px;
+    background-color: #A8A4CE;
+    padding: 5px;
+    border: solid;
+    width: 24%;
+    border-width: 5px;
+    border-color: #5829A7;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:50%;
+    height:50%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 200px;
+    border-color: #5829A7;
+}
+
+footer {
+    margin-bottom: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    clear: both;
+    background-color: #7364d2;
+    text-align: center;
+    font-size: 0.9em;
+    color: #3D0E61;
+}

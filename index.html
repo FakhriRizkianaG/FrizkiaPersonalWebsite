@@ -3,9 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/Style.css">
     <title>Frizkia Website</title>
 </head>
 <body>
-    <h1>halo gaes mari kita coba</h1>
+    <header>
+        <h1>Fakhri Rizkiana</h1>
+        <p><b>Writer and Illustrator</b></p>
+        <nav>
+            <a href="#">About me</a> |
+            <a href="#">Portofolio</a> |
+            <a href="#">Commission Info</a> |
+            <a href="#">Partner</a> |
+            <a href="#">Contact info</a> 
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="About-me">
+            <h2>About Me</h2>
+            <hr>
+            <p>Hi! My Name is Fakhri Rizkiana, i'm a writer and Illustrator based in Indonesia. I mainly draw anime style illustration using Clip Studio Paint. I mostly draw my own OC but i draw other stuff well.</p>
+            <p>I have about 3 years of experience in digital art. i started by using IbisPaint on my phone, then when i got my first pen tablet i switch over to Krita on my PC. Then after i got enough money, i switch over to Clip studio Paint and have been using it ever since.</p>
+            <p>In highschool i've become the coordinator of section 4 in the student council, an i also become the vice president of the Japanese Club.</p>
+            <p>I graduated from SMA Negeri 1 Cileunyi in 2024 and, i'm currently majoring in computer science in Universitas Pendidikan Indonesia.</p>
+            <p>The reason i pursued Computer Science is because i want to make a video game of my own. Since i love storytelling so much, and video game is one of the best storytelling media i've ever seen.</p>
+            <p>You can contact me on my email or you can go to my social media.</p>
+        </section>
+        <section class="portofolio">
+            <h2>Portofolio</h2>
+            <hr>
+            <h3>illustration</h3>
+                <section class="illustration">
+                    <img src="https://pbs.twimg.com/media/GFv9k3LaIAAD1bt?format=jpg&name=medium" alt="illust1" id="porto-illust">
+                    <img src="assets/images/Portoillust/Novel illustration 4.png" alt="illust2" id="porto-illust">
+                    <img src="https://pbs.twimg.com/media/GPhy2OCboAA4mnJ?format=jpg&name=4096x4096" alt="illust3" id="porto-illust">
+                    <img src="https://pbs.twimg.com/media/GM0wHDwa8AAG0bx?format=jpg&name=medium" alt="illust4" id="porto-illust">
+                    <img src="https://pbs.twimg.com/media/GQWKmrNbgAA7cSP?format=jpg&name=4096x4096" alt="illust5" id="porto-illust">
+                    <img src="https://pbs.twimg.com/media/GOWXxRJaYAAJpzH?format=jpg&name=4096x4096" alt="illust6" id="porto-illust">
+                    <br>
+                    <p>To see more of my illustrasion, go to my: <a href="https://www.instagram.com/frizkia_creation/">Instagram</a>|<a href="https://cara.app/fakhririzkianag/portfolio">Cara</a>|<a href="https://www.pixiv.net/en/users/87070761">Pixiv</a></p>
+                </section>
+                <br>
+        </section>
+        <section class="partner">
+            <h2>Worked/Partnered with</h2>
+            <hr>
+            <article>
+                <img src="assets/images/Partnerimage/Sandekala.jpg" alt="Partner 1" id="Partnerimage">
+                <h3>Sandekala Community</h3>
+                <p>Indonesian comic artist community</p>
+                <p><a href="https://www.instagram.com/sandekala_community" target="_blank">More Info</a></p>
+            </article>
+            <article>
+                <img src="assets/images/Partnerimage/Uid.jpg" alt="Partner 2" id="Partnerimage">
+                <h3>Uidewri</h3>
+                <p>Indonesian comic artist<br><br></p>
+                <p><a href="https://www.instagram.com/uidewri/" target="_blank">More Info</a></p>
+            </article>
+            <article>
+                <img src="assets/images/Partnerimage/Zaky.jpg" alt="Partner 3" id="Partnerimage">
+                <h3>Zaky Arrasyid</h3>
+                <p>Indonesian illustrator<br><br></p>
+                <p><a href="https://www.instagram.com/zeno.xar/" target="_blank">More Info</a></p>
+            </article>
+            <article>
+                <img src="assets/images/Partnerimage/Okim.jpg" alt="Partner 4" id="Partnerimage">
+                <h3>Trash of Society comics</h3>
+                <p>Indonesian comic artist<br><br></p>
+                <p><a href="https://www.instagram.com/trashofsociety_comics/" target="_blank">More Info</a></p>
+            </article>
+            <article>
+                <img src="assets/images/Partnerimage/Harumi.jpg" alt="Partner 5" id="Partnerimage">
+                <h3>Harumichiko</h3>
+                <p>Indonesian comic artist and illustrator</p>
+                <p><a href="https://www.instagram.com/harumichiko.art_" target="_blank">More Info</a></p>
+            </article>
+            <article>
+                <img src="assets/images/Partnerimage/Murasaki.jpg" alt="Partner 6" id="Partnerimage">
+                <h3>Murasaki Ishida</h3>
+                <p>Indonesian comic artist<br><br></p>
+                <p><a href="https://www.instagram.com/murasaki2079" target="_blank">More Info</a></p>
+            </article>
+        </section>
+        <section class="contact-me">
+            <h2>Contact me</h2>
+            <hr>
+            <form>
+                <label for="name"><strong>Name:</strong></label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email"><strong>Email:</strong></label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="message"><strong>Message:</strong></label>
+                <textarea id="message" name="message" style="height:200px" required></textarea>
+                <br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    
+    <aside>
+        <img src="assets/images/Profile txt.png" alt="Profile pict" class="profile-pic">
+        <h2>Personal Info</h2>
+        <hr>
+        <p><strong>Name: </strong> Fakhri Rizkiana</p>
+        <p><strong>Date of Birth: </strong> 15-September-2005</p>
+        <p><strong>Nationality: </strong> Indonesia</p>
+        <p><strong>Email: </strong> fakhrirsk150905@gmail.com</p>
+        <p><strong>App used: </strong> Clip Studio Paint</p>
+        <br>
+        <h2>Social media</h2>
+        <hr>
+        <ul>
+            <li><a href="https://www.instagram.com/frizkia_creation/">Instagram</a></li>
+            <li><a href="https://cara.app/fakhririzkianag/portfolio">Cara</a></li>
+            <li><a href="https://www.pixiv.net/en/users/87070761">Pixiv</a></li>
+        </ul>
+        <br>
+        <h2>Specialty</h2>
+        <hr>
+        <ul>
+            <li>Digital art</li>
+            <li>anime style</li>
+            <li>Female Character</li>
+        </ul>
+        <br>
+        <h2>Supported languages</h2>
+        <hr>
+        <ul>
+            <li>Indonesian</li>
+            <li>English</li>
+        </ul>
+        <br>
+        <h2>Hobbies</h2>
+        <hr>
+        <ul>
+            <li>Drawing</li>
+            <li>Playing games</li>
+            <li>Watching anime</li>
+        </ul>
+        <br>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 FakhriRizkianaG. All rights reserved.</p>
+    </footer>
 </body>
 </html>
